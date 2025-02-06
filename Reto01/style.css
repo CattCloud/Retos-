@@ -1,0 +1,76 @@
+body{
+   background-color: #f5d04e; 
+   font-family: "Roboto", serif;
+   margin-top: 20px;
+
+}
+article{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 5%;
+    width: 30%;
+    margin: 0 auto;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+#img_portada{
+    display: block;
+    width: 100%;
+    height: 50%;
+    border-radius: 5%;
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+p{
+  text-align: justify;  
+}
+
+#info_etiqueta{
+    background-color:#f2d050 ;
+    border-radius: 5%;
+    padding: 5px 10px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+#info_publicacion{
+    font-weight:400;
+}
+
+#container_informacion{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: start;
+}
+
+#container_autor{
+    display: flex;
+    width: auto;
+    justify-content: start;
+    align-items: center;
+    font-weight: bold;
+    padding:5px;
+}
+
+#img_autor{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
+
+#info_autor{
+    margin: 10px;
+    letter-spacing: 1px;
+}
+
+
