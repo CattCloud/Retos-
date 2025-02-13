@@ -1,0 +1,104 @@
+html{
+    font-size: 16px;
+}
+
+body,main{
+    background-color:  #C27C48 ;
+    display: flex;
+    justify-content: center;
+}
+
+article{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    background-color: white;
+    align-items: start;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+section{
+    width: 100%;
+}
+
+#img_perfil{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1{
+   font-size: 1.5rem;
+   margin-bottom: 12px; 
+}
+h2{
+    color:#814C27;
+    margin: 0;
+}
+
+article p{
+    text-align: justify;
+    margin: 0;
+}
+
+#section_preparation{
+    background-color:  #FAF3E0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 10px 0;
+    padding: 10px 0 0 10px;
+}
+
+#section_preparation h2{
+    font-size: 1.1rem;
+    color: #D93B65;
+    margin-bottom: 0;
+}
+
+li{
+    margin-bottom: 10px;
+}
+li>span{
+    font-weight: bold;
+}
+
+.linea-horizontal{
+    height: 0.5px;
+    width: 100%;
+    background-color: #E4E4E4;
+}
+
+ul,ol{
+    padding: 0 20px;
+}
+
+#section_instructions{
+    margin: 10px 0;
+}
+
+#section_nutricion{
+    margin: 10px 0;
+}
+
+#section_nutricion>p{
+    margin: 10px 0;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.label{
+    flex-basis: 50%;
+}
+
+.value{
+    flex-basis: 50%;
+    color: #D93B65;
+    font-weight: lighter;
+}
