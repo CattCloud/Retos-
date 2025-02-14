@@ -1,0 +1,101 @@
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: "Fraunces","Montserrat",serif;
+    background-color: #f3eae3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+ 
+main{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 15px;
+ }
+
+#text_cabezera{
+    font-family: "Montserrat";
+    letter-spacing: 4px;
+    font-weight: 100;
+    font-size: 1.5rem;
+    color: #9a9ba0;
+
+}
+ 
+#img_portada{
+    width:50%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+h1{
+   padding: 0;
+   margin: 20px 0;
+   font-size: 3rem;
+   font-weight: 900; 
+}
+
+article>p{
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    color: #9a9ba0;
+    font-weight: 100;
+    letter-spacing: 1px;
+}  
+
+article{
+    display: flex;
+    flex-direction: column; 
+    width:50%; 
+    margin: 0;
+    padding: 40px;
+} 
+
+#container_precio{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 20px 0;
+}
+
+#container_precio>span{
+    width: 50%;
+}
+
+#precio_descuento{
+    font-size:3rem;    
+    font-weight: 900;
+    color: #3d8168;
+}
+
+#precio_real{
+    color: #9a9ba0;
+    font-size:1.3rem;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+a{
+    display: flex;
+    color: white;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    background-color: #3d8168;
+}
+
+a>svg{
+    width: 7%;
+    margin-right: 10px;
+}
