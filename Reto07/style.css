@@ -1,0 +1,124 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Funnel Sans", sans-serif;
+    height: 100vh;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .section_about_me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+  }
+  
+  .section_text_about_me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .section_text_about_me h1 {
+    font-size: 2.5rem;
+    margin: 1.7rem 0;
+  }
+  
+  .section_text_about_me p {
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 200;
+    max-width: 700px;
+    margin: 1.2rem;
+  }
+  
+  .linea_horizontal {
+    height: 5px;
+    background-color: #d0131c;
+    width: 70px;
+  }
+  
+  /* Sección de contacto con ajuste flexible */
+  .card_about_me {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1rem;
+    justify-content: center;
+  }
+  
+  .card_about_me_img {
+    background-color: #e7effa;
+    flex-basis: 300px; /* Mínimo 300px */
+    flex-grow: 1;
+    min-width: 300px; /* Garantiza que baje a una columna cuando no haya suficiente espacio */
+  }
+  
+  .card_about_me_content {
+    flex-basis: 300px; /* Mínimo 300px */
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    min-width: 300px; /* Esto fuerza el apilado sin usar media queries */
+  }
+  
+  /* Estilos de las celdas de información */
+  .celda {
+    color: whitesmoke;
+    background-color: #292d33;
+    flex-basis: 200px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    font-size: 0.8rem;
+    padding: 2rem;
+  }
+  
+  .celda p {
+    text-align: center;
+  }
+  
+  .celda h2 {
+    color: #707071;
+    letter-spacing: 2px;
+  }
+  
+  .social_links {
+    display: flex;
+    gap: 1rem;
+    font-size: 20px;
+  }
+  
+  .emails_links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .celda-header-icon {
+    color: #707071;
+    font-size: 50px;
+  }
+  
+
+  @media (min-width:800px) AND (max-width:1070px){
+    .celda {
+        flex-basis: 120px;
+        flex-grow: 1;
+        padding: 1rem;
+      }
+  }
